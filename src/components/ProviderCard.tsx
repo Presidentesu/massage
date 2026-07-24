@@ -55,7 +55,7 @@ export const ProviderCard: React.FC<ProviderCardProps> = ({ provider }) => {
     cleanPhoneDigits = "251" + rawDigits;
   }
   const whatsappUrl = `https://wa.me/${cleanPhoneDigits}`;
-  const telegramUrl = "https://t.me/hotmassage";
+  const telegramUrl = "https://t.me/hottmassage";
 
   return (
     <div className="group bg-white rounded-3xl p-3 sm:p-4 shadow-sm hover:shadow-xl border border-slate-100 hover:border-sky-100 transition-all duration-300 flex flex-col justify-between">

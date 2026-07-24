@@ -67,13 +67,13 @@ export const Hero: React.FC = () => {
               </a>
 
               <a
-                href="https://t.me/hotmassage"
+                href="https://t.me/hottmassage"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-sky-50 text-sky-700 border border-sky-200 hover:bg-sky-100 transition-colors"
               >
                 <Send className="w-3.5 h-3.5 text-sky-500" />
-                <span>Telegram (@hotmassage)</span>
+                <span>Telegram (@hottmassage)</span>
               </a>
             </div>
 

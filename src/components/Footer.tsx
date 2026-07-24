@@ -71,13 +71,13 @@ export const Footer: React.FC = () => {
                 </a>
 
                 <a
-                  href="https://t.me/hotmassage"
+                  href="https://t.me/hottmassage"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-xs font-semibold text-sky-400 hover:text-sky-300 transition-colors flex items-center gap-1.5"
                 >
                   <Send className="w-3.5 h-3.5 text-sky-400" />
-                  <span>Telegram: @hotmassage</span>
+                  <span>Telegram: @hottmassage</span>
                 </a>
               </div>
             </div>

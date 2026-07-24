@@ -86,7 +86,7 @@ export const Services: React.FC = () => {
                 </a>
 
                 <a
-                  href="https://t.me/hotmassage"
+                  href="https://t.me/hottmassage"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center justify-center p-2.5 rounded-xl bg-sky-500 hover:bg-sky-600 text-white transition-colors shadow-xs"
