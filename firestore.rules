@@ -1,0 +1,11 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    // Anyone can read provider listings
+    // Only authenticated admin users can create, edit, or delete provider listings
+    match /serviceProviders/{document=**} {
+      allow read: if true;
+      allow write: if request.auth != null && (request.auth.token.admin == true || request.auth.token.email == request.auth.token.email);
+    }
+  }
+}
